@@ -1,0 +1,64 @@
+EcoScores_v2_ALL
+Material,Variant,Category,Eco_Score_1best_10worst,,,,,,Certifications,Notes,Source_URL
+Cotton,Conventional (global avg),Natural plant fiber,6,,,,,,—,Higher agrochemical & water inputs; big regional variance.,https://textileexchange.org/
+Cotton,Conventional (irrigated/high-stress),Natural plant fiber,7,,,,,,—,Blue-water scarcity risk high; chemical load.,https://quantis.com/
+Cotton,Conventional (rain-fed/low-stress),Natural plant fiber,5,,,,,,—,Lower blue-water use; still fertilizer/pesticides.,https://textileexchange.org/
+Cotton,Organic (global avg),Natural plant fiber,4,,,,,,"GOTS, OCS",Reduced synthetic chemistry; lower GHG vs conventional.,https://soilassociation.org/
+Cotton,Organic (rain-fed),Natural plant fiber,3,,,,,,"GOTS, OCS",Avoids irrigation in many regions; very strong profile.,https://textileexchange.org/
+Cotton,Fairtrade Organic,Natural plant fiber,3,,,,,,"Fairtrade, GOTS",Organic agronomy + social standards.,https://www.fairtrade.net/
+Cotton,BCI / Better Cotton (improved practices),Natural plant fiber,5,,,,,,BCI,Practice improvements; not organic; chemistry still present.,https://support.worldly.io/
+Cotton,Transitional / In-Conversion,Natural plant fiber,4,,,,,,"In-Conversion, OCS",Lower inputs than conventional; not fully organic yet.,https://textileexchange.org/
+Cotton,Regenerative (verified programs),Natural plant fiber,3,,,,,,Various regen verifications,"Soil health, reduced inputs; program/region-specific.",https://kering.com/
+Cotton,ELS / Supima (conventional),Natural plant fiber,5,,,,,,Supima (quality label),Longevity benefits; irrigation common.,https://supima.com/
+Cotton,Mechanically Recycled,Natural plant fiber (recycled),2,,,,,,RCS,Avoids farming; fiber shortening; often blended.,https://textileexchange.org/
+Cellulosic (recycled),"Chemically recycled cellulose (e.g., Circulose® pulp)",Man‑made cellulosic (recycled),3,,,,,,GRS/RCS (pulp supply),Closed‑loop dissolving pulp from textile waste.,https://renewcell.com/
+Linen (Flax),EU flax / standard,Natural plant fiber,2,,,,,,European Flax®,"Often rain‑fed, low inputs; durable & biodegradable.",https://europeanflax.com/
+Hemp,Conventional,Natural plant fiber,2,,,,,,—,Low pesticide/water; high durability.,https://www.eco-stylist.com/
+Ramie,Conventional,Natural plant fiber,4,,,,,,—,Bast fiber; chemical retting possibilities.,https://goodonyou.eco/
+Jute,Conventional,Natural plant fiber,3,,,,,,—,Low-input bast fiber; biodegradable.,https://www.fao.org/
+Kenaf,Conventional,Natural plant fiber,3,,,,,,—,Bast fiber similar to jute; low inputs reported.,https://www.fao.org/
+Nettle,Conventional,Natural plant fiber,3,,,,,,—,Experimental apparel fiber; low-input potential.,https://goodonyou.eco/
+Banana/Abacá,Conventional,Natural plant fiber,4,,,,,,—,Agri-residue fiber; processing chemistry varies.,https://www.fao.org/
+Coir (Coconut),Conventional,Natural plant fiber,4,,,,,,—,Lignocellulosic; apparel limited; trims/insoles.,https://www.fao.org/
+Wool,Conventional (sheep),Animal fiber,6,,,,,,—,Enteric methane & land use; long lifetime offsets possible.,https://mistrafuturefashion.com/
+Wool,Responsible/Certified (RWS etc.),Animal fiber (cert.),4,,,,,,RWS,Improved grazing/animal welfare & traceability.,https://textileexchange.org/standards/rws/
+Wool,Recycled,Animal fiber (recycled),3,,,,,,GRS/RCS,Avoids farming impacts; strong circularity.,https://textileexchange.org/
+Cashmere,Conventional,Animal fiber,8,,,,,,—,High land pressure; low yield per animal.,https://goodonyou.eco/
+Mohair,Conventional,Animal fiber,7,,,,,,—,Animal welfare & land concerns.,https://goodonyou.eco/
+Alpaca,Conventional,Animal fiber,6,,,,,,—,Impacts vary by region; lower methane than cattle.,https://materialinnovation.org/
+Silk,Conventional,Animal-based (sericulture),7,,,,,,—,Resource & ethical issues; not top-tier impact.,https://goodonyou.eco/
+Viscose/Rayon,Conventional,Man‑made cellulosic,6,,,,,,—,Deforestation & chemistry risks without safeguards.,https://canopyplanet.org/
+Viscose,FSC/PEFC feedstock + better chemistry,Man‑made cellulosic (cert.),5,,,,,,FSC/PEFC,Improved pulp sourcing & recovery.,https://fsc.org/
+Bamboo Viscose,Conventional,Man‑made cellulosic,6,,,,,,—,Marketed green but depends on viscose process chemistry.,https://goodonyou.eco/
+Bamboo Lyocell,Closed-loop (lyocell),Man‑made cellulosic,3,,,,,,—,Lyocell route improves chemistry & recovery.,https://lenzing.com/
+Lyocell (TENCEL™),Closed-loop (NMMO solvent),Man‑made cellulosic,3,,,,,,"FSC/PEFC (pulp), EU Ecolabel",Lower-impact MMCF; biodegradable in conditions.,https://lenzing.com/
+Modal,Certified supply chain,Man‑made cellulosic,4,,,,,,—,Similar to viscose but improved with certifications.,https://goodonyou.eco/
+Cupro,Cotton linter cellulose (Cu-ammonia),Man‑made cellulosic,5,,,,,,—,Chemistry & effluent critical; varies by facility.,https://fashionforgood.com/
+Acetate/Triacetate,Cellulose acetate,Man‑made cellulosic,6,,,,,,—,Acetylation solvents; EoL concerns.,https://oecotextiles.blog/
+Polyester (PET),Virgin,Synthetic (petro-based),9,,,,,,—,High energy; microplastic shedding; dominant fiber volume.,https://quantis.com/
+Polyester (rPET),Bottle-to-fiber,Synthetic (recycled),5,,,,,,GRS/RCS,Lower energy/CO₂ vs virgin; shedding persists; downcycling risk.,https://www.sustainyourstyle.org/en/fiber-ecoreview
+Polyester (rPET),Textile-to-textile,Synthetic (recycled),4,,,,,,GRS/chemical recycling,Towards circularity; depends on chemistry & energy mix.,https://textileexchange.org/
+Nylon (PA6/66),Virgin,Synthetic (petro-based),9,,,,,,—,High energy; N₂O concerns from adipic acid; shedding.,https://quantis.com/
+Nylon (recycled),"From nets/industrial waste (e.g., ECONYL®)",Synthetic (recycled),6,,,,,,GRS,Waste diversion; improved vs virgin; shedding persists.,https://aquafil.com/
+Acrylic,Virgin,Synthetic (petro-based),9,,,,,,—,High energy; poor recyclability; microplastics.,https://goodonyou.eco/
+Elastane/Spandex,Virgin,Synthetic (elastomer),8,,,,,,—,Small % in garments but hampers recycling.,https://wrap.org.uk/
+PU (Polyurethane),Conventional,Synthetic polymer,7,,,,,,—,Petrochemical; EoL issues; fewer toxins than PVC.,https://quantis.com/
+TPU,Thermoplastic polyurethane,Synthetic polymer,6,,,,,,—,Potentially better recyclability than PU; still petro-based.,https://materialdistrict.com/
+PVC,Conventional,Synthetic polymer (chlorinated),10,,,,,,—,Chlorine chemistry & additives; EoL/toxicity concerns.,https://greenpeace.org/
+Bio-PET,Bio-based PET (mono-ethylene glycol from biomass),Bio-based synthetic,7,,,,,,—,Fossil reduction in feedstock; similar EoL & shedding.,https://plasticsEurope.org/
+"Bio-PA (e.g., PA11)",Castor-based nylon,Bio-based synthetic,6,,,,,,—,Lower fossil input; performance nylon; still microplastics.,https://arkema.com/
+PLA,Polylactic acid,Bio-based synthetic,5,,,,,,—,Compostability limited to industrial conditions; brittleness issues.,https://natureworksllc.com/
+PHA,Polyhydroxyalkanoates,Bio-based synthetic,4,,,,,,—,Bio-synthesized; promising EoL; early apparel adoption.,https://go-pmi.com/
+Mycelium leather,Lab-grown mycelium composite,Bio-based composite,5,,,,,,—,Binder polymers vary; mixed early LCAs.,https://materialinnovation.org/
+Cactus leather,Plant-based composite (nopal),Bio-based composite,5,,,,,,—,Binder drives impact; durability a factor.,https://desserto.com.mx/
+Pineapple fiber (Piñatex),Leaf fiber composite,Bio-based composite,5,,,,,,—,Agri-waste feedstock; polymer binder influences impact.,https://ananas-anam.com/
+Apple/fruit leather,Fruit-waste composite,Bio-based composite,6,,,,,,—,Upcycled feedstock; binder & longevity matter.,https://goodonyou.eco/
+Down/Feather,Conventional,Animal by-product,5,,,,,,—,By-product allocation; welfare concerns.,https://textileexchange.org/standards/
+Down/Feather,RDS/Responsible Down,Animal by-product (cert.),4,,,,,,RDS,Improved welfare & traceability; similar environmental profile.,https://responsibledown.org/
+Blend: Cotton/Polyester,50/50 (virgin),Blend,7,,,,,,—,Combines pros/cons; recycling difficult due to separation.,https://wrap.org.uk/
+Blend: Cotton/rPET,50/50 (recycled PET),Blend (recycled),5,,,,,,RCS/GRS,Lower fossil demand; still hard to recycle.,https://textileexchange.org/
+Blend: Recycled Cotton/rPET,60/40 (both recycled),Blend (recycled),4,,,,,,RCS/GRS,Strong circularity benefits; quality management key.,https://textileexchange.org/
+Blend: Wool/Polyester,70/30 (virgin),Blend,7,,,,,,—,Durability vs recyclability tradeoff.,https://wrap.org.uk/
+Blend: Wool/Recycled Polyester,70/30 (rPET),Blend (recycled),6,,,,,,GRS,Improved fossil intensity; still separation issues.,https://wrap.org.uk/
+Denim (Material),Conventional cotton + indigo dye,Category-specific,7,,,,,,—,Dye chemistry & water load; depends on process.,https://zdhc.org/
+Denim (Material),Organic/recycled cotton + low-impact dye,Category-specific,4,,,,,,"GOTS, ZDHC MRSL",Lower chemistry & water; better EoL.,https://zdhc.org/
