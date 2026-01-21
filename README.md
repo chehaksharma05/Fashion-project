@@ -87,3 +87,11 @@ pip install -r backend/requirements.txt
 # Check if data folder exists
 mkdir -p data
 ```
+
+### Running the Frontend
+```bash
+python3 -m pip install streamlit matplotlib
+# Then
+python3 -m streamlit run streamlit_app.py
+
+```
