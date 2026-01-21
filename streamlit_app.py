@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 
+import requests  
+
+API_BASE = "http://127.0.0.1:8000"  
+
 st.markdown(
     """
     <style>
@@ -46,14 +50,73 @@ st.markdown(
 )
 
 
-@st.cache_data
+@st.cache_data(ttl=300)
 def load_data():
-    df = pd.read_csv("data/keywords_with_trends.csv")
-    return df
-
+    """Fetch trend data from backend API"""
+    try:
+        # Check if backend is running
+        health_check = requests.get(f"{API_BASE}/", timeout=3)
+        if not health_check.ok:
+            st.error("⚠️ Backend API is not responding")
+            return pd.DataFrame()
+        
+        # Get all keywords from backend
+        keywords_response = requests.get(f"{API_BASE}/keywords", timeout=5)
+        
+        if not keywords_response.ok:
+            st.error("❌ Cannot fetch keywords from backend")
+            return pd.DataFrame()
+        
+        keywords_data = keywords_response.json()
+        all_keywords = keywords_data.get('keywords', [])
+        
+        # Fetch trend data for each keyword
+        all_data = []
+        
+        for keyword in all_keywords:
+            try:
+                trend_response = requests.get(
+                    f"{API_BASE}/trends",
+                    params={"keyword": keyword},
+                    timeout=5
+                )
+                
+                if trend_response.ok:
+                    trend_data = trend_response.json()
+                    
+                    if trend_data:
+                        df_temp = pd.DataFrame(trend_data)
+                        avg_score = df_temp['trend_score'].mean()
+                        category = df_temp['category'].iloc[0] if 'category' in df_temp.columns else 'Other'
+                        
+                        all_data.append({
+                            'keyword': category,
+                            'clothing_item': keyword,
+                            'popularity_score': avg_score
+                        })
+                        
+            except Exception as e:
+                continue
+        
+        if not all_data:
+            st.warning("No trend data available from backend")
+            return pd.DataFrame()
+        
+        return pd.DataFrame(all_data)
+    
+    except requests.exceptions.ConnectionError:
+        st.error("🔴 Cannot connect to backend API")
+        st.info("💡 Make sure backend is running: `uvicorn backend.main:app --reload`")
+        return pd.DataFrame()
+    except Exception as e:
+        st.error(f"Error loading data: {e}")
+        return pd.DataFrame()
 df = load_data()
 
-
+if df.empty:
+    st.error("⚠️ No data loaded from backend!")
+    st.info("Check: 1) Backend is running 2) data/trends_cache.json exists")
+    st.stop()
 
 
 st.sidebar.header("Filters")
